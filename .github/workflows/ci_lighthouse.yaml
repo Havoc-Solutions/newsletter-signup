@@ -1,0 +1,13 @@
+name: CI - Lighthouse Audit
+on: push
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Lighthouse
+        uses: foo-software/lighthouse-check-action@master
+        with:
+          urls: 'https://eon-${{ github.event.repository.name }}.netlify.app/'
+          device: 'all'
