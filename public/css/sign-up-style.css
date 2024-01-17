@@ -101,12 +101,6 @@ body {
   display: flex;
 }
 
-.email-form__button:hover, .email-form__button.email-form__input:focus {
-  cursor: pointer;
-  background: linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%);
-  box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.5);
-}
-
 .card {
   justify-content: space-between;
 }
@@ -179,6 +173,12 @@ body {
 
 .email-form__input:focus {
   outline: none;
+}
+
+.email-form__button:hover, .email-form__button.email-form__input:focus {
+  cursor: pointer;
+  background: linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%);
+  box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.5);
 }
 
 @media only screen and (width >= 1440px) {
