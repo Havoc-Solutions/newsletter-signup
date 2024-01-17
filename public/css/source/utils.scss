@@ -1,0 +1,14 @@
+@mixin setFont($font-family, $src, $font-weight: 400, $font-style: normal) {
+  @font-face {
+    font-family: $font-family;
+    //noinspection CssUnknownTarget
+    src: $src;
+    font-style: $font-style;
+    font-weight: $font-weight;
+  }
+}
+
+@mixin setDimensions($width, $height) {
+  width: $width;
+  height: $height;
+}

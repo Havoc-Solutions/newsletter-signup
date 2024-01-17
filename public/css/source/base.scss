@@ -1,0 +1,57 @@
+@use 'reset';
+@use 'utils' as utils;
+@use 'variables' as vars;
+
+@include utils.setFont(Roboto, url('../fonts/Roboto-Regular.ttf'));
+@include utils.setFont(Roboto, url('../fonts/Roboto-Bold.ttf'), 700);
+
+:root {
+  font-family: Roboto, sans-serif;
+}
+
+body * {
+  font-weight: 400;
+}
+
+// COMPOSITION
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+// UTILITIES
+.flow > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
+.bg-primary {
+  background-color: vars.$clr-blue-200;
+}
+
+.bg-secondary {
+  background-color: vars.$clr-white-800;
+}
+
+.bg-highlight {
+  background-color: vars.$clr-blue-50;
+}
+
+.clr-primary {
+  color: vars.$clr-blue-50;
+}
+
+.clr-secondary {
+  color: vars.$clr-white-800;
+}
+
+.sdw-primary {
+  box-shadow: vars.$shadow-100;
+}
+
+.fnt-bold {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
