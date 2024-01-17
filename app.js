@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import express from 'express';
 
 const port = 4000;
@@ -9,6 +10,6 @@ app.use(express.static('public'));
 app.listen(port, () => console.log(`[+] Server listening at http://127.0.0.1:${port}`));
 
 process.on('SIGTERM', () => {
-  console.log('[!] SIGTERM: Shutting down server...');
-  process.exit(0);
+    console.log('[!] SIGTERM: Shutting down server...');
+    process.exit(0);
 });
