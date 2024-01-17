@@ -56,6 +56,12 @@ body {
   display: flex;
 }
 
+%btn-hover {
+  cursor: pointer;
+  background: linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%);
+  box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.50);
+}
+
 // BLOCK
 .card {
   justify-content: space-between;
@@ -132,9 +138,7 @@ body {
 }
 
 .email-form__button:hover {
-  cursor: pointer;
-  background: linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%);
-  box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.50);
+  @extend %btn-hover;
 }
 
 // DESKTOP VERSION
