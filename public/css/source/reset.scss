@@ -25,8 +25,7 @@ input, button {
   @extend %no-spacing;
 }
 
-ul[role='list'],
-ol[role='list'] {
+ul, ol {
   list-style: none;
   @extend %no-spacing;
 }
