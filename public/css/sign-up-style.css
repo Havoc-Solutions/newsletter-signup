@@ -171,19 +171,17 @@ body {
 .error-message {
   position: absolute;
   right: 0;
-  color: #FF6155;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
 }
 
 .state__error {
-  color: #FF6155;
   border: 1px solid #FF6155;
   background: rgba(255, 97, 85, 0.15);
 }
 
-.state__error::placeholder {
+.error-message, .state__error, .state__error::placeholder {
   color: #FF6155;
 }
 
