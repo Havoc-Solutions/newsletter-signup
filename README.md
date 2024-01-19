@@ -1,11 +1,11 @@
-# Frontend Mentor - Newsletter Sign-Up with Success Message solution
+# Frontend Mentor - Newsletter Sign-Up Form with Success Message solution
 
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Havoc-Solutions/newsletter-signup?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/Havoc-Solutions/newsletter-signup)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Feon-newsletter-signup.netlify.app%2F)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
 This is a solution
-to [Newsletter Sign-Up with Success Message](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
+to [Newsletter Sign-Up Form with Success Message](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
 Frontend Mentor challenges help you
 improve your coding skills by building realistic projects.
 
@@ -29,7 +29,7 @@ improve your coding skills by building realistic projects.
 
 ### Screenshot
 
-![Newsletter-Sign-Up-with-Success-Message](https://github.com/Havoc-Solutions/newsletter-signup/assets/15611424/d9301332-13fb-4267-91ed-a0a78b5faa9d)
+![Newsletter-Sign-Up Form-with-Success-Message](https://github.com/Havoc-Solutions/newsletter-signup/assets/15611424/d9301332-13fb-4267-91ed-a0a78b5faa9d)
 
 ## Try it out!
 
