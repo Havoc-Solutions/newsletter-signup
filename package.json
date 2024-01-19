@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "newsletter-sign-up-form",
   "version": "1.0.0",
-  "description": "A brief description of project",
+  "description": "A sign-up form that leads to a success message page upon validation",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EONRaider/Project.git"
+    "url": "git+https://github.com/Havoc-Solutions/newsletter-signup.git"
   },
   "author": "EONRaider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EONRaider/Project/issues"
+    "url": "https://github.com/Havoc-Solutions/newsletter-signup/issues"
   },
-  "homepage": "https://github.com/EONRaider/Project#readme",
+  "homepage": "https://github.com/Havoc-Solutions/newsletter-signup#readme",
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.2",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
