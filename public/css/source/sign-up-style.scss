@@ -37,6 +37,7 @@
 }
 
 .content-email-form {
+  position: relative;
   --flow-space: 24px;
 }
 
@@ -68,6 +69,25 @@
 }
 
 // EXCEPTIONS
+.error-message {
+  position: absolute;
+  right: 0;
+  color: vars.$clr-red-400;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.state__error {
+  color: vars.$clr-red-400;
+  border: 1px solid vars.$clr-red-400;
+  background: rgba(255, 97, 85, 0.15);
+}
+
+.state__error::placeholder {
+  color: vars.$clr-red-400;
+}
+
 .email-form__input:hover {
   border: 1px solid vars.$clr-blue-100;
 }
